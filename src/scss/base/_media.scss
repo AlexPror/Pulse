@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        &__logo {
+            width: 150px;   
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items:center;
+            .advantages__icon {
+                margin-top: 10px;
+            }
+        }
+    }
+    .consultation {
+        .title_left{
+                text-align: center;
+            }   
+        &__descr {
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    .feed__form {
+            margin: 0 auto;
+        }
+    }
+    }
+     
